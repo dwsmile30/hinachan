@@ -21,7 +21,4 @@ async def on_message(message):
         await channel.send('룽룽~★')
 
 access_token = os.environ["BOT_TOKEN"]		
-git_access_token = os.environ["GIT_TOKEN"]			
-git_access_repo = os.environ["GIT_REPO"]			
-git_access_repo_restart = os.environ["GIT_REPO_RESTART"]	
 client.run(access_token)
